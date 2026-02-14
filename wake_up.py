@@ -6,7 +6,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 import time
 
 # --- CONFIGURATION ---
-APP_URL = "https://YOUR-APP-NAME.streamlit.app"  # <--- PUT YOUR URL HERE
+APP_URL = "https://ringaram.streamlit.app"  # <--- PUT YOUR URL HERE
 # ---------------------
 
 def wake_up_app():
