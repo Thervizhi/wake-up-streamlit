@@ -2,9 +2,9 @@ name: Wake Streamlit App
 
 on:
   schedule:
-    # Runs at 02:00 UTC every day (which is 7:30 AM Indian Standard Time)
-    - cron: '0 2 * * *'
-  workflow_dispatch: # Allows you to click a button to test it manually
+    # Runs at minute 0 past hour 0, 11, and 22 (UTC)
+    - cron: '0 */11 * * *'
+  workflow_dispatch:
 
 jobs:
   wake_it_up:
