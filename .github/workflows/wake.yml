@@ -3,7 +3,7 @@ name: Wake Streamlit App
 on:
   schedule:
     # Runs at minute 0 past hour 0, 11, and 22 (UTC)
-    - cron: '0 */11 * * *'
+    - cron: '0 */12 * * *'
   workflow_dispatch:
 
 jobs:
