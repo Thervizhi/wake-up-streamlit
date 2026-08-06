@@ -5,7 +5,7 @@ from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 import time
 
-# --- CONFIGURATION ---
+# --- CONFIGURATION -----
 APP_URL = "https://ringaram.streamlit.app"  # <--- PUT YOUR URL HERE
 # ---------------------
 
